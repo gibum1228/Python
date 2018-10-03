@@ -1,0 +1,19 @@
+
+# 세 개의 수를 입력받는다.
+n1 = int(input("숫자 입력: "))
+n2 = int(input("숫자 입력: "))
+n3 = int(input("숫자 입력: "))
+# 가장 작은 수를 저장할 변수 min을 초기화한다.
+min = 0
+
+# 첫 번째와 두 번째 수를 비교하여, 작은 수를 min에 저장한다
+if(n1 > n2) :
+    min = n2
+else :
+    min = n1
+# 세 번째 수와 min을 비교하여, 작은 수를 min에 저장한다
+if(min > n3) :
+    min = n3
+
+# min을 출력
+print(min)
