@@ -1,0 +1,16 @@
+
+l = [3, 5, 6, 8]
+
+if not l :
+    print("빈 리스트입니다.")
+else :
+    print(l)
+
+index = int(input("출력하고 싶은 요소 입력: "))
+
+size = len(l) # l의 길이를 size에 저장해 index와 비교
+
+if(index >= size or index < 0) :
+    print("해당 요소는 없습니다.")
+else :
+    print(l[index])
