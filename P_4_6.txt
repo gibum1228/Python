@@ -1,0 +1,6 @@
+sum = 0
+
+for i in range(3, 101, 3) : # 3씩 증가, range(99, 0, -3)도 가능
+    sum += i
+
+print(sum)
