@@ -1,0 +1,10 @@
+#1
+for i in range(5, 0, -1) :
+    print('*' * i)
+
+
+#2
+for i in range(5, 0, -1) :
+    for a in range(i, 0, -1) :
+        print("*", end = '')
+    print('')
