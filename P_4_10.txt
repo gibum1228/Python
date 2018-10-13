@@ -1,0 +1,13 @@
+S = input() # 문자열 입력받기
+
+for i in range(0, len(S)) : # 0부터 문자열 끝 앞 번호까지 반복문
+    print(" " * i, end = "") # 줄 길이만큼 앞에 여백 늘리기
+    print(S[i:]) # i부터 끝까지 출력하기
+
+for i in range(0, len(S)) : # 문자열 길이만큼 반복
+    o = '' # o를 초기화
+    for j in range(0, i) : # i만큼 공백 붙이기
+        o = o + ' '
+    for k in range(i, len(S)) : # 공백이 있는 o에 문자 붙이기
+        o = o + S[k]
+    print(o)
