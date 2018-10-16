@@ -1,0 +1,12 @@
+l = [] # l 초기화
+sum = 0 # sum 초기화
+
+for i in range(0, 5) : # i는 0부터 4
+    l.append(int(input())) # l에 입력받은 수를 저장
+
+for add in l : # add에 l 값 대입
+    sum += add # sum에 add 더하기
+
+average = sum / len(l) # 평균 구하기
+
+print("%d %f" %(sum, average)) # 합과 평균 출력
