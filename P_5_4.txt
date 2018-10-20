@@ -1,0 +1,5 @@
+def print_me(name, number, major = '소프트웨어공학과') : # print_me 함수 정의
+    print(name + " " + number + ' ' + major) # 입력받은 매개변수를 출력
+
+print_me('김기범','student_number','IT융합자율학부')
+print_me('김기범','student_number')
