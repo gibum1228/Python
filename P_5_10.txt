@@ -1,0 +1,8 @@
+# 모든 함수는 주소값을 가지고 있다.
+
+# 합을 구하는 lambda 함수(무명 함수)
+sum = lambda x, y : x + y # lambda 함수의 (주소)시작값이 sum에 저장됨, lambda함수가 실행되는 것은 아님, sum은 주소값을 가지고 있음
+k = sum(5, 8) # lambda 함수 실행 지점
+
+print(sum(5, 10)) # 함수 실행 지점
+print(k) # 출력
