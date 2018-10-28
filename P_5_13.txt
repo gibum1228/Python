@@ -1,0 +1,7 @@
+def fact(a) : # 재귀함수 fact 정의
+    if a == 1 : # a가 1이면
+        return 1 # 1 반환
+    else :
+        return a * fact(a-1) # 재귀함수
+
+print(fact(5)) # 매개변수 5로 호출
